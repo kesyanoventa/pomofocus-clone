@@ -1,0 +1,114 @@
+.task-list {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 430px;
+  margin: 40px auto;
+  padding: 25px 30px;
+  text-align: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Judul */
+.task-list h2 {
+  margin-bottom: 15px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+/* Form tambah task */
+.task-list div {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.task-list input[type="text"] {
+  flex: 1;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  font-size: 14px;
+}
+
+.task-list button {
+  padding: 8px 14px;
+  background-color: #ff6b6b;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+.task-list button:hover {
+  background-color: #ff8585;
+}
+
+/* Daftar task */
+.task-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  text-align: left;
+  max-height: 180px; /* tinggi tetap biar bisa scroll */
+  overflow-y: auto; /* aktifkan scroll */
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.4) transparent;
+  border-radius: 8px;
+  padding-right: 5px;
+}
+
+/* Scrollbar custom untuk Chrome/Edge */
+.task-list ul::-webkit-scrollbar {
+  width: 6px;
+}
+.task-list ul::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 4px;
+}
+
+/* Tiap item task */
+.task-list li {
+  background-color: white;
+  color: #333;
+  margin-bottom: 8px;
+  padding: 8px 10px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: 0.2s ease;
+}
+
+.task-list li:hover {
+  transform: translateY(-1px);
+}
+
+/* Checkbox + teks */
+.task-list li span {
+  flex: 1;
+  margin-left: 8px;
+}
+
+/* Tombol hapus */
+.task-list li button {
+  background: none;
+  color: #ff6b6b;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Responsif */
+@media (max-width: 500px) {
+  .task-list {
+    width: 90%;
+    padding: 15px;
+  }
+}
