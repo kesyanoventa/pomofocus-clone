@@ -2,7 +2,7 @@
 
   "name": "pomofocus",
   "version": "0.1.0",
-  "homepage": "https://usernamekamu.github.io/nama-repo",
+  "homepage": "https://kesyanoventa.github.io/pomofocus-clone",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.6.2",
