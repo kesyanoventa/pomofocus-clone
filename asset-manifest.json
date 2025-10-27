@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/nama-repo/static/css/main.6636956e.chunk.css",
+    "main.js": "/nama-repo/static/js/main.a26ddd2d.chunk.js",
+    "main.js.map": "/nama-repo/static/js/main.a26ddd2d.chunk.js.map",
+    "runtime-main.js": "/nama-repo/static/js/runtime-main.a6f37748.js",
+    "runtime-main.js.map": "/nama-repo/static/js/runtime-main.a6f37748.js.map",
+    "static/js/2.2b0c8304.chunk.js": "/nama-repo/static/js/2.2b0c8304.chunk.js",
+    "static/js/2.2b0c8304.chunk.js.map": "/nama-repo/static/js/2.2b0c8304.chunk.js.map",
+    "index.html": "/nama-repo/index.html",
+    "static/css/main.6636956e.chunk.css.map": "/nama-repo/static/css/main.6636956e.chunk.css.map",
+    "static/js/2.2b0c8304.chunk.js.LICENSE.txt": "/nama-repo/static/js/2.2b0c8304.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a6f37748.js",
+    "static/js/2.2b0c8304.chunk.js",
+    "static/css/main.6636956e.chunk.css",
+    "static/js/main.a26ddd2d.chunk.js"
+  ]
+}
